@@ -1,0 +1,30 @@
+.span{
+    color:rgb(240, 6, 88);
+}
+.img{
+    width: 410px;
+    height: 350px;
+    object-fit: cover;
+}
+.card{
+    width: 410px;
+}
+.list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(410px,1fr));
+    justify-items: center;
+}
+body{
+margin: 0;
+}
+.Add{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    max-width:500px;
+    margin: 10px auto;
+}
+.homeimg{
+    width: 800px;
+    margin-left: 300px;
+}
