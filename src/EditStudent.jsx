@@ -19,14 +19,14 @@ console.log(stu)
   return (
     
       <div  className="Add">
-      <TextField id="outlined-basic" label="image" variant="outlined"  placeholder="image" value={stu.image} onChange={(eve) => setImage(eve.target.value)} />
-      <TextField id="outlined-basic" label="name" variant="outlined"  placeholder="name" value={stu.name} onChange={(eve) => setName(eve.target.value)} />
-      <TextField id="outlined-basic" label="age" variant="outlined"  placeholder="age" value={stu.age} onChange={(eve) => setAge(eve.target.value)} />
-      <TextField id="outlined-basic" label="reg-no" variant="outlined"  placeholder="reg-no" value={stu.regno} onChange={(eve) => setRegno(eve.target.value)} />
-      <TextField id="outlined-basic" label="email" variant="outlined"  placeholder="email" value={stu.email} onChange={(eve) => setEmail(eve.target.value)} />
-      <TextField id="outlined-basic" label="phone" variant="outlined"  placeholder="phone" value={stu.phone} onChange={(eve) => setPhone(eve.target.value)} />
-      <TextField id="outlined-basic" label="deg" variant="outlined"  placeholder="deg" value={stu.deg} onChange={(eve) => setDeg(eve.target.value)} />
-      <Button variant="contained" type="submit" onClick={()=>{
+      <TextField name="image" id="outlined-basic" label="image" variant="outlined"  placeholder="image" value={stu.image} onChange={(eve) => setImage(eve.target.value)} />
+      <TextField name="name" id="outlined-basic" label="name" variant="outlined"  placeholder="name" value={stu.name} onChange={(eve) => setName(eve.target.value)} />
+      <TextField name="age" id="outlined-basic" label="age" variant="outlined"  placeholder="age" value={stu.age} onChange={(eve) => setAge(eve.target.value)} />
+      <TextField name="regno" id="outlined-basic" label="reg-no" variant="outlined"  placeholder="reg-no" value={stu.regno} onChange={(eve) => setRegno(eve.target.value)} />
+      <TextField name="email" id="outlined-basic" label="email" variant="outlined"  placeholder="email" value={stu.email} onChange={(eve) => setEmail(eve.target.value)} />
+      <TextField name="phone" id="outlined-basic" label="phone" variant="outlined"  placeholder="phone" value={stu.phone} onChange={(eve) => setPhone(eve.target.value)} />
+      <TextField name="deg" id="outlined-basic" label="deg" variant="outlined"  placeholder="deg" value={stu.deg} onChange={(eve) => setDeg(eve.target.value)} />
+      <Button variant="contained"onClick={()=>{
         const newstudent={
           image:image,
           name:name,
